@@ -8,7 +8,7 @@ prev_image: '/assets/img/projects/prev/sweet-home-preview.png'
 prev_position: center
 prev_background: '#DA657A'
 spheres: ['medical', 'management', 'electronic-document']
-technologies: ['web', 'iOS', 'android', 'hybrid']
+technologies: ['web', 'iOS', 'android']
 ---
 
 # Sweet Home

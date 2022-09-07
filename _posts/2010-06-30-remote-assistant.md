@@ -8,7 +8,7 @@ prev_image: '/assets/img/projects/prev/remote-assistant-prev.png'
 prev_position: center
 prev_background: '#367CF4'
 spheres: ['geolocation', 'marketing']
-technologies: ['iOS', 'android', 'desktop', 'hybrid']
+technologies: ['iOS', 'android', 'web']
 ---
 
 # RemoteAssistant
