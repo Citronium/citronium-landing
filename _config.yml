@@ -8,8 +8,8 @@ url: "https://citronium.github.io" # the base hostname & protocol for your site,
 # Build settings
 theme: minima
 
-autoprefixer:
-  only_production: true
+# autoprefixer:
+#   only_production: true
 
 plugins:
   - jekyll-feed
