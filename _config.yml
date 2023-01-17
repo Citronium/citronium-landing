@@ -1,8 +1,8 @@
 
 title: Цитрониум
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "/citronium-landing" # the subpath of your site, e.g. /blog
-url: "https://citronium.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://citronium.ru" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
