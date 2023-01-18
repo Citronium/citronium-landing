@@ -128,7 +128,7 @@ feedbackForm.addEventListener("submit", async function (e) {
 });
 
 function sendMail(payload) {
-    const api = "https://citronium-landing-api.psrv5.citronium.com/users/send-email";
+    const api = "https://citronium-landing-api.psrv5.citronium.com/user/send-email";
 
     return fetch(api, {
         method: "POST",
