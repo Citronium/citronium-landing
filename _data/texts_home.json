@@ -1,0 +1,206 @@
+{
+    "hero": {
+        "title": {
+            "ru": "15 лет делаем приложения для крупного бизнеса",
+            "en": "15 years of making applications for leading companies"
+        },
+        "description": {
+            "ru": "Успех наших проектов стоит на 3-х китах: качественная аналитика, продуктовый дизайн, внедрение в работу",
+            "en": "The three pillars of our projects’ success are: quality analytics, product design, in-use implementation"
+        },
+        "startProject": {
+            "ru": "Начать проект",
+            "en": "Start a Project"
+        }
+    },
+    "whatWeDo": {
+        "sectionName": {
+            "ru": "Что мы делаем",
+            "en": "What We Do"
+        },
+        "sectionTitle": {
+            "ru": "У нас есть опыт в этих сферах",
+            "en": "We are experienced in these spheres"
+        },
+        "item1": {
+            "ru": "Цифровизация бизнес-процессов",
+            "en": "Business Process Digitalization"
+        },
+        "item2": {
+            "ru": "Системы управления проектами",
+            "en": "Project Management Systems"
+        },
+        "item3": {
+            "ru": "Электронный документооборот",
+            "en": "Electronic Document Flow"
+        },
+        "item4": {
+            "ru": "Посмотреть все сферы",
+            "en": "More spheres"
+        }
+    },
+    "whyWe": {
+        "sectionName": {
+            "ru": "Почему мы",
+            "en": "Why we"
+        },
+        "sectionTitle": {
+            "ru": "IT-бюро со штатом сильных специалистов",
+            "en": "IT company with highly qualified and experienced specialists"
+        },
+        "item1": {
+            "ru": "100% наших проектов <br/>  доведены до финала",
+            "en": "100% of our projects are finalized"
+        },
+        "item2": {
+            "ru": "Умеем внедрять программные системы в больших компаниях",
+            "en": "We have vast experience in implementing software systems in big companies"
+        },
+        "item3": {
+            "ru": "Помогаем сформулировать требования, спроектировать систему, написать техническое задание",
+            "en": "We help define requirements, design the system, write technical specifications"
+        }
+    },
+    "howWeWork": {
+        "sectionName": {
+            "ru": "Как мы работаем",
+            "en": "How we Work"
+        },
+        "sectionTitle": {
+            "ru": "Реализуем проекты любой сложности",
+            "en": "We implement projects of any complexity"
+        },
+        "item1": {
+            "title": {
+                "ru": "Разработка с нуля",
+                "en": "Development from scratch"
+            },
+            "description": {
+                "ru": "Мы поможем определить цели проекта и критерии их достижения, проведём необходимые исследования спроектируем дизайн и архитектуру. На протяжении всего проекта мы будем вашим партнёром.",
+                "en": "We help define the project goals and their achievement criteria, do the necessary research, and make the design and system architecture. We will be your dedicated partner throughout the project."
+            },
+            "btnText": {
+                "ru": "Получить консультацию",
+                "en": "Get a Consultation"
+            }
+        },
+        "item2": {
+            "title": {
+                "ru": "Проектная работа",
+                "en": "Project Work"
+            },
+            "description": {
+                "ru": "У вас есть готовое техническое задание или концепция проекта. Мы внимательно изучим объем работ, разобьем на этапы, согласуем сроки и бюджет и выдадим результат.",
+                "en": "You have a ready technical specification or your project concept. We will carefully examine the scope of work, divide it into stages, agree on time limits and costs and provide the result."
+            },
+            "btnText": {
+                "ru": "Расчитать смету по ТЗ",
+                "en": "Calculate the Costs based on Specifications"
+            }
+        },
+        "item3": {
+            "title": {
+                "ru": "Гибкая разработка",
+                "en": "Flexible development"
+            },
+            "description": {
+                "ru": "У вас есть сложные задачи, которые требуют особого подхода. Мы работаем спринтами, по итогам которых команда проанализирует результаты и поставит приоритеты для следующего цикла.",
+                "en": "You have complex tasks that require a special approach. We work in sprints. At the end of each sprint, the team analyzes the results and set priorities for the next one."
+            },
+            "btnText": {
+                "ru": "Написать нам",
+                "en": "Write to us"
+            }
+        }
+    },
+    "ourApproach": {
+        "sectionName": {
+            "ru": "Наш подход",
+            "en": "Our Approach"
+        },
+        "sectionTitle": {
+            "ru": "Выбираем технологии, наиболее подходящие для решения задачи",
+            "en": "We choose the technologies the most appropriate for the tasks"
+        }
+    },
+    "aboutTeam": {
+        "sectionName": {
+            "ru": "О команде",
+            "en": "About our Team"
+        },
+        "sectionTitle": {
+            "ru": "Мы – команда профессионалов",
+            "en": "We are a team of professionals"
+        },
+        "item": {
+            "title": {
+                "ru": "Над вашим проектом будут работать менеджеры, дизайнеры, разработчики, инженеры по качеству и специалисты по внедрению",
+                "en": "For your project, you will get managers, designers, software developers, QA engineers, and implementation specialists."
+            },
+            "btnText": {
+                "ru": "Начать проект",
+                "en": "Start your Project"
+            }
+        }
+    },
+    "trustUs": {
+        "sectionName": {
+            "ru": "Нам доверяют",
+            "en": "They Trust Us"
+        },
+        "sectionTitle": {
+            "ru": "Для них мы сделали классные проекты",
+            "en": "We’ve developed awesome projects for them"
+        }
+    },
+    "ourAwards": {
+        "sectionName": {
+            "ru": "Наши награды",
+            "en": "англ"
+        },
+        "sectionTitle": {
+            "ru": "Доверие профессионального сообщества",
+            "en": "англ"
+        },
+        "item1": {
+            "title": {
+                "ru": "Веб-интеграторы",
+                "en": "англ"
+            },
+            "description": {
+                "ru": "Все ключевые рейтинги, аналитика и спецпроекты агентского рынка digital-коммуникаций России.",
+                "en": "англ"
+            }
+        },
+        "item2": {
+            "title": {
+                "ru": "Веб-интеграторы",
+                "en": "англ"
+            },
+            "description": {
+                "ru": "Топ лучших веб-разработчиков и ведущих интеграторов интернет-решений России",
+                "en": "англ"
+            }
+        },
+        "item3": {
+            "title": {
+                "ru": "Мобильная разработка",
+                "en": "англ"
+            },
+            "description": {
+                "ru": "Рейтинг компаний, специализирующихся на заказной разработке мобильных приложений и мобильном маркетинге.",
+                "en": "англ"
+            }
+        },
+        "item4": {
+            "title": {
+                "ru": "Мобильная разработка",
+                "en": "англ"
+            },
+            "description": {
+                "ru": "Рейтинг лучших поставщиков IT- услуг, заказной и веб разработки в сегменте В2В.",
+                "en": "англ"
+            }
+        }
+    }
+}

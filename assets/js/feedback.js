@@ -52,7 +52,7 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 function validateForm() {
-    if (nameEl.value !== "" && phoneEl.value !== "") {
+    if (nameEl.value !== "" && phoneEl.value.length > 8) {
         feedbackFormBtn.disabled = false;
     } else {
         feedbackFormBtn.disabled = true;
@@ -62,29 +62,6 @@ function validateForm() {
 //on submit form
 feedbackForm.addEventListener("submit", async function (e) {
     e.preventDefault();
-
-    let isFormError;
-
-    if (nameEl.value.length === 0) {
-        nameEl.classList.add("error");
-        nameErrorEl.innerText = "Введите имя";
-        isFormError = true;
-    } else {
-        nameEl.classList.remove("error");
-        nameErrorEl.innerText = "";
-    }
-
-    if (phoneEl.value.length === 0) {
-        phoneEl.classList.add("error");
-        phoneErrorEl.innerText = "Введите номер телефона";
-        isFormError = true;
-    } else {
-        phoneEl.classList.remove("error");
-        phoneErrorEl.innerText = "";
-    }
-    if (isFormError) {
-        return;
-    }
 
     const payload = {
         name: nameEl.value,
@@ -102,46 +79,55 @@ feedbackForm.addEventListener("submit", async function (e) {
     feedbackFormBtn.disabled = false;
     feedbackSpinner.classList.remove("show");
     feedbackBtnText.classList.remove("hide");
-
-    if (res.statusCode === 400) {
-        if (res.message.name) {
-            nameEl.classList.add("error");
-            nameErrorEl.innerText = res.message.name;
-        }
-        if (res.message.phone) {
-            phoneEl.classList.add("error");
-            phoneErrorEl.innerText = res.message.phone;
-        }
-
-        return;
-    }
-
     formContainerEl.style.display = "none";
 
-    if (res.statusCode === 200) {
-        formMessageTextEl.innerText = "Спасибо за заявку! \n Ваши данные успешно отправлены";
+    let textSuccess = "";
+    let textError = "";
+
+    if (document.documentElement.lang === "ru") {
+        textSuccess = "Спасибо за заявку! \n Ваши данные успешно отправлены";
+        textError = "Не получилось отправить заявку. \n Попробуйте еще раз.";
     } else {
-        formMessageTextEl.innerText = "Не получилось отправить заявку. \n Попробуйте еще раз.";
+        textSuccess = "Thank you for the application! \n Your data has been sent successfully";
+        textError = "It was not possible to send the application. \n Try again.";
+    }
+
+    if (res.status === 200) {
+        formMessageTextEl.innerText = textSuccess;
+    } else {
+        formMessageTextEl.innerText = textError;
     }
 
     formMessageEl.style.display = "flex";
 });
 
 function sendMail(payload) {
-    const api = "https://citronium-landing-api.psrv5.citronium.com/user/send-email";
 
-    return fetch(api, {
-        method: "POST",
-        body: JSON.stringify(payload),
-        headers: {
-            "Content-Type": "application/json",
-        },
-    })
-        .then((res) => res.json())
-        .then((data) => {
-            return data;
+    const api = "https://api.emailjs.com/api/v1.0/email/send";
+
+    var data = {
+        service_id: "service_gfdeifl",
+        template_id: "template_iobrs5k",
+        user_id: "fVnk-3KfRnBTNLY6n",
+        template_params: payload,
+    };
+
+
+    return (
+        fetch(api, {
+            method: "POST",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/json",
+            },
         })
-        .catch((error) => {
-            return error;
-        });
+            // .then((res) => res.json())
+            .then((data) => {
+                return data;
+            })
+            .catch((error) => {
+                console.log(error);
+                return error;
+            })
+    );
 }

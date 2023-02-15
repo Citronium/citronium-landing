@@ -1,0 +1,136 @@
+{
+    "header": {
+        "projects": {
+            "ru": "Наши проекты",
+            "en": "Our projects"
+        },
+        "contacts": {
+            "ru": "Контакты",
+            "en": "Contacts"
+        }
+    },
+    "mobileMenu": {
+        "projects": {
+            "ru": "Наши проекты",
+            "en": "Our projects"
+        },
+        "contacts": {
+            "ru": "Контакты",
+            "en": "Contacts"
+        }
+    },
+    "footer": {
+        "title": {
+            "ru": "Приглашаем вас на бесплатную консультацию",
+            "en": "We invite you for a free consultation"
+        },
+        "description": {
+            "ru": "После 15-минутной консультации мы составим коммерческое предложение с ориентиром по стоимости и срокам, пришлем его через 2 дня.",
+            "en": "After a 15-minute consultation, within two days you will get a commercial offer with costs and time frames."
+        },
+        "btnText": {
+            "ru": "Записаться на консультацию",
+            "en": "Schedule the Consultation"
+        },
+        "company": {
+            "ru": "© 2022 ООО «Цитрониум»",
+            "en": "© 2022 Citronium Ltd."
+        },
+        "personal": {
+            "ru": "Политика обработки персональных данных",
+            "en": "Personal Data Processing Policy"
+        },
+        "privacy": {
+            "ru": "Политика конфиденциальности",
+            "en": "Data Protection Guidelines"
+        }
+    },
+    "feedbackForm": {
+        "title": {
+            "ru": "Запись на консультацию",
+            "en": "Make an appointment for a consultation"
+        },
+        "name": {
+            "label": {
+                "ru": "Имя",
+                "en": "Name"
+            },
+            "placeholder": {
+                "ru": "Введите имя",
+                "en": "Enter a name"
+            }
+        },
+        "phone": {
+            "label": {
+                "ru": "Телефон",
+                "en": "Phone"
+            },
+            "placeholder": {
+                "ru": "Введите номер телефона",
+                "en": "Enter your phone number"
+            }
+        },
+        "btnSubmit": {
+            "ru": "Начать проект",
+            "en": "Start a project"
+        },
+        "link": {
+            "ru": "Нажимая на кнопку вы даёте согласие <u>на обработку персональных данных</u>",
+            "en": "By clicking on the button you consent <u> to the processing of personal data</u>"
+        }
+    },
+    "contacts": {
+        "title": {
+            "ru": "Контакты",
+            "en": "Contacts"
+        },
+        "left": {
+            "title": {
+                "ru": "Приглашаем вас <br/> на бесплатную консультацию",
+                "en": "We invite you <br/> to a free consultation"
+            },
+            "description": {
+                "ru": "После 15-минутной консультации мы составим коммерческое предложение с ориентиром по стоимости и срокам, пришлем его через 2 дня.",
+                "en": "After a 15-minute consultation, within two days you will get a commercial offer with costs and a time frame."
+            },
+            "btnText": {
+                "ru": "Начать проект",
+                "en": "Start Project"
+            }
+        },
+        "right": {
+            "address": {
+                "ru": "Йошкар-Ола, Карла Маркса <nobr>109-б</nobr>",
+                "en": "Karla Marksa <nobr>109-b</nobr>, Yoshkar-Ola, Russia "
+            },
+            "phone": {
+                "ru": "+7 (499) 350-55-75",
+                "en": "+7 (499) 350-55-75"
+            }
+        }
+    },
+    "projects": {
+        "title": {
+            "ru": "Наши проекты",
+            "en": "Our Projects"
+        },
+        "description": {
+            "ru": " Мы сделали и запустили в работу более 500 проектов. Лучшие из них мы превратили в увлекательные истории.",
+            "en": "We’ve developed and implemented 500+ projects. We’ve turned the best of them into fascinating stories."
+        },
+        "linkText": {
+            "ru": "Посмотреть подробнее",
+            "en": "More"
+        }
+    },
+    "projectFilters": {
+        "dropdownSpheres": {
+            "ru": "Все сферы",
+            "en": "All spheres"
+        },
+        "dropdownTechnologies": {
+            "ru": "Все технологии",
+            "en": "All technologies"
+        }
+    }
+}

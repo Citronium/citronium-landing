@@ -1,77 +1,122 @@
 [
     {
-        "en": "all",
-        "ru": "Все сферы",
+        "value": "all",
+        "label": {
+            "ru": "Все сферы",
+            "en": "All Spheres"
+        },
         "type": "spheres"
     },
     {
-        "en": "business-processes",
-        "ru": "Цифровизация бизнес-процессов",
+        "value": "business-processes",
+        "label": {
+            "ru": "Цифровизация бизнес-процессов",
+            "en": "Digitization of Business Processes"
+        },
         "type": "spheres"
     },
     {
-        "en": "project-management",
-        "ru": "Системы управления проектами",
+        "value": "project-management",
+        "label": {
+            "ru": "Системы управления проектами",
+            "en": "Project Management Systems"
+        },
         "type": "spheres"
     },
     {
-        "en": "electronic-document",
-        "ru": "Электронный документооборот",
+        "value": "electronic-document",
+        "label": {
+            "ru": "Электронный документооборот",
+            "en": "E-Document Management"
+        },
         "type": "spheres"
     },
     {
-        "en": "medical",
-        "ru": "Медицина",
+        "value": "medical",
+        "label": {
+            "ru": "Медицина",
+            "en": "Medicine"
+        },
         "type": "spheres"
     },
     {
-        "en": "management",
-        "ru": "Менеджмент",
+        "value": "management",
+        "label": {
+            "ru": "Менеджмент",
+            "en": "Management"
+        },
         "type": "spheres"
     },
     {
-        "en": "e-learning",
-        "ru": "E-learning",
+        "value": "e-learning",
+        "label": {
+            "ru": "E-learning",
+            "en": "E-Learning"
+        },
         "type": "spheres"
     },
     {
-        "en": "logistics",
-        "ru": "Логистика",
+        "value": "logistics",
+        "label": {
+            "ru": "Логистика",
+            "en": "Logistics"
+        },
         "type": "spheres"
     },
     {
-        "en": "marketing",
-        "ru": "Маркетинг",
+        "value": "marketing",
+        "label": {
+            "ru": "Маркетинг",
+            "en": "Marketing"
+        },
         "type": "spheres"
     },
     {
-        "en": "state-sector",
-        "ru": "Госсектор",
+        "value": "state-sector",
+        "label": {
+            "ru": "Госсектор",
+            "en": "Government"
+        },
         "type": "spheres"
     },
     {
-        "en": "social-network",
-        "ru": "Соцсети",
+        "value": "social-network",
+        "label": {
+            "ru": "Соцсети",
+            "en": "Social Networks"
+        },
         "type": "spheres"
     },
     {
-        "en": "geolocation",
-        "ru": "Геолокация",
+        "value": "geolocation",
+        "label": {
+            "ru": "Геолокация",
+            "en": "Geolocation"
+        },
         "type": "spheres"
     },
     {
-        "en": "bi",
-        "ru": "BI",
+        "value": "bi",
+        "label": {
+            "ru": "BI",
+            "en": "BI"
+        },
         "type": "spheres"
     },
     {
-        "en": "game",
-        "ru": "Геймификация",
+        "value": "game",
+        "label": {
+            "ru": "Геймификация",
+            "en": "Gamification"
+        },
         "type": "spheres"
     },
     {
-        "en": "data-analysis",
-        "ru": "Анализ данных",
+        "value": "data-analysis",
+        "label": {
+            "ru": "Анализ данных",
+            "en": "Data Analysis"
+        },
         "type": "spheres"
     }
 ]

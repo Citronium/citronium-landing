@@ -1,9 +1,8 @@
+{% assign text = site.data.texts_home.hero %}
 <section class="hero">
     <div class="hero-container flex-container">
-        <h1 class="hero__title h1">15 лет делаем приложения для крупного бизнеса</h1>
-        <p class="hero__descr">
-            Успех наших проектов стоит на 3-х китах: качественная аналитика, продуктовый дизайн, внедрение в работу
-        </p>
-        <button class="btn btn--dark hero__btn modal-btn">Начать проект</button>
+        <h1 class="hero__title h1">{{ text.title[site.lang] }}</h1>
+        <p class="hero__descr">{{ text.description[site.lang] }}</p>
+        <button class="btn btn--dark hero__btn modal-btn">{{ text.startProject[site.lang] }}</button>
     </div>
 </section>
